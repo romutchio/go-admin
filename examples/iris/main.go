@@ -6,18 +6,20 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/GoAdminGroup/go-admin/adapter/iris"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
 	_ "github.com/GoAdminGroup/themes/adminlte"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/examples/datamodel"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/example"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
+	_ "github.com/romutchio/go-admin/adapter/iris"
+	_ "github.com/romutchio/go-admin/modules/db/drivers/mysql"
+
 	"github.com/kataras/iris/v12"
+
+	"github.com/romutchio/go-admin/engine"
+	"github.com/romutchio/go-admin/examples/datamodel"
+	"github.com/romutchio/go-admin/modules/config"
+	"github.com/romutchio/go-admin/modules/language"
+	"github.com/romutchio/go-admin/plugins/example"
+	"github.com/romutchio/go-admin/template"
+	"github.com/romutchio/go-admin/template/chartjs"
 )
 
 func main() {
@@ -85,7 +87,7 @@ func main() {
 
 	app.HandleDir("/uploads", "./uploads", iris.DirOptions{
 		IndexName: "/index.html",
-		Gzip:      false,
+		Compress:  false,
 		ShowList:  false,
 	})
 

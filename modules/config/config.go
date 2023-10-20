@@ -17,11 +17,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/GoAdminGroup/go-admin/modules/logger"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
 	"gopkg.in/ini.v1"
 	"gopkg.in/yaml.v2"
+
+	"github.com/romutchio/go-admin/modules/logger"
+	"github.com/romutchio/go-admin/modules/utils"
+	"github.com/romutchio/go-admin/plugins/admin/modules/form"
 )
 
 // Database is a type of database connection config.

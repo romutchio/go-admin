@@ -6,8 +6,8 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/romutchio/go-admin/modules/config"
+	"github.com/romutchio/go-admin/template/types/form"
 )
 
 type DisplayFnGenerator interface {

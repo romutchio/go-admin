@@ -1,10 +1,10 @@
 package datamodel
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/romutchio/go-admin/context"
+	"github.com/romutchio/go-admin/modules/db"
+	"github.com/romutchio/go-admin/plugins/admin/modules/table"
+	"github.com/romutchio/go-admin/template/types/form"
 )
 
 // GetAuthorsTable return the model of table author.

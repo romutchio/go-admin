@@ -13,13 +13,14 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/GoAdminGroup/go-admin/modules/db"
+	"github.com/romutchio/go-admin/modules/db"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	template2 "github.com/GoAdminGroup/go-admin/template"
 	"github.com/mgutz/ansi"
 	"gopkg.in/ini.v1"
+
+	"github.com/romutchio/go-admin/modules/config"
+	"github.com/romutchio/go-admin/modules/language"
+	template2 "github.com/romutchio/go-admin/template"
 )
 
 type Project struct {

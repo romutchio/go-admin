@@ -10,12 +10,12 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/GoAdminGroup/go-admin/modules/db/dialect"
-	"github.com/GoAdminGroup/go-admin/modules/language"
+	"github.com/romutchio/go-admin/modules/db/dialect"
+	"github.com/romutchio/go-admin/modules/language"
 
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/romutchio/go-admin/modules/db"
+	"github.com/romutchio/go-admin/modules/utils"
+	"github.com/romutchio/go-admin/template/types/form"
 )
 
 type Param struct {

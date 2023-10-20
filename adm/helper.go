@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GoAdminGroup/go-admin/modules/utils"
 	"github.com/mgutz/ansi"
+	"github.com/romutchio/go-admin/modules/utils"
 
-	"github.com/GoAdminGroup/go-admin/modules/system"
+	"github.com/romutchio/go-admin/modules/system"
 )
 
 func cliInfo() {

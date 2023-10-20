@@ -3,8 +3,8 @@ package components
 import (
 	"html/template"
 
-	"github.com/GoAdminGroup/go-admin/modules/menu"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/romutchio/go-admin/modules/menu"
+	"github.com/romutchio/go-admin/template/types"
 )
 
 type TreeAttribute struct {

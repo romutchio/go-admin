@@ -14,16 +14,16 @@ import (
 	"strings"
 	"sync"
 
-	c "github.com/GoAdminGroup/go-admin/modules/config"
-	errors2 "github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
-	"github.com/GoAdminGroup/go-admin/modules/menu"
-	"github.com/GoAdminGroup/go-admin/modules/system"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
-	"github.com/GoAdminGroup/go-admin/template/login"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	c "github.com/romutchio/go-admin/modules/config"
+	errors2 "github.com/romutchio/go-admin/modules/errors"
+	"github.com/romutchio/go-admin/modules/language"
+	"github.com/romutchio/go-admin/modules/logger"
+	"github.com/romutchio/go-admin/modules/menu"
+	"github.com/romutchio/go-admin/modules/system"
+	"github.com/romutchio/go-admin/modules/utils"
+	"github.com/romutchio/go-admin/plugins/admin/models"
+	"github.com/romutchio/go-admin/template/login"
+	"github.com/romutchio/go-admin/template/types"
 )
 
 // Template is the interface which contains methods of ui components.

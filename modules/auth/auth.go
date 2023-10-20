@@ -7,14 +7,14 @@ package auth
 import (
 	"sync"
 
-	"github.com/GoAdminGroup/go-admin/modules/db/dialect"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
+	"github.com/romutchio/go-admin/modules/db/dialect"
+	"github.com/romutchio/go-admin/modules/logger"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/service"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
+	"github.com/romutchio/go-admin/context"
+	"github.com/romutchio/go-admin/modules/db"
+	"github.com/romutchio/go-admin/modules/service"
+	"github.com/romutchio/go-admin/plugins/admin/models"
+	"github.com/romutchio/go-admin/plugins/admin/modules"
 	"golang.org/x/crypto/bcrypt"
 )
 

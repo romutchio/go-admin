@@ -157,3 +157,14 @@ cli:
 	cp ./adm/build/mac/adm_darwin_x86_64_$(VERSION).zip ./adm/build/zip/
 
 .PHONY: all fmt golint govet cp-mod restore-mod test black-box-test mysql-test sqlite-test import-sqlite import-mysql import-postgresql pg-test lint cilint cli
+
+mod-tidy:
+	@echo "Run go mod tidy...."
+	go mod tidy -compat=1.17
+
+mod-action-%:
+	@echo "Run go mod ${*}...."
+	go mod $*
+	@echo "Done go mod  ${*}"
+
+mod: mod-action-verify mod-tidy mod-action-vendor mod-action-download mod-action-verify ## Download all dependencies

@@ -11,15 +11,15 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/adapter"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/plugins"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/template/types"
 	"github.com/gin-gonic/gin"
+	"github.com/romutchio/go-admin/adapter"
+	"github.com/romutchio/go-admin/context"
+	"github.com/romutchio/go-admin/engine"
+	"github.com/romutchio/go-admin/modules/config"
+	"github.com/romutchio/go-admin/plugins"
+	"github.com/romutchio/go-admin/plugins/admin/models"
+	"github.com/romutchio/go-admin/plugins/admin/modules/constant"
+	"github.com/romutchio/go-admin/template/types"
 )
 
 // Gin structure value is a Gin GoAdmin adapter.
